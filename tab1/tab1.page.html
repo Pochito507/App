@@ -1,0 +1,89 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="color:salmon">
+      Home page
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+<!-- Colors -->
+<icon-card>
+<ion-button  class="a" color="primary"[routerLink]="['/biginning']">Biginning</ion-button>
+<ion-button class="a" color="primary"[routerLink]="['/mision']" >Mision&Vision</ion-button>
+<ion-button  class="a" color="primary" [routerLink]="['/events']">Events</ion-button>
+<ion-button class="a" color="primary" [routerLink]="['/location']">Location</ion-button>
+<ion-button  class="a" color="primary" [routerLink]="['/staff']">Staff</ion-button>
+<ion-button class="a" color="primary" [routerLink]="['/contac']">Contac Us</ion-button>
+
+</icon-card>
+
+
+  <ion-card [routerLink]="['/biginning']">
+    <img src="https://blog.selfbank.es/wp-content/uploads/2019/12/GettyImages-1066324992-720x320.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Kellog Panama Business Institute</ion-card-subtitle>
+      <ion-card-title>Biginning</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Kellog Panama Business Institute is a non-public university with a business-oriented...
+    </ion-card-content>
+  </ion-card >
+  <ion-card [routerLink]="['/mision']">
+    <ion-img src="assets\Kellogg.PNG"></ion-img>
+  
+    <ion-card-header>
+      <ion-card-subtitle>Kellog Panama Business Institute</ion-card-subtitle>
+      <ion-card-title>Mission & Vission</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+     Mission: We are committed to educating, more info...
+
+
+ 
+    </ion-card-content>
+  </ion-card>
+  <ion-card  [routerLink]="['/events']">
+    <img src="assets/EVENs.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Kellog Panama Business Institute</ion-card-subtitle>
+      <ion-card-title>Events</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      All can be studies, the people of our university need to share experience, emotions, so on with others.
+    </ion-card-content>
+  </ion-card>
+  <ion-card [routerLink]="['/location']">
+    <img src="https://blog.selfbank.es/wp-content/uploads/2019/12/GettyImages-1066324992-720x320.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Kellog Panama Business Institute</ion-card-subtitle>
+      <ion-card-title>Madison, WI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin Territory in 1836.
+    </ion-card-content>
+  </ion-card>
+  <ion-card [routerLink]="['/staff']">
+    <img src="https://blog.selfbank.es/wp-content/uploads/2019/12/GettyImages-1066324992-720x320.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Kellog Panama Business Institute</ion-card-subtitle>
+      <ion-card-title>Madison, WI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin Territory in 1836.
+    </ion-card-content>
+  </ion-card>
+  <ion-card [routerLink]="['/contac']">
+    <img src="https://blog.selfbank.es/wp-content/uploads/2019/12/GettyImages-1066324992-720x320.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Kellog Panama Business Institute</ion-card-subtitle>
+      <ion-card-title>Madison, WI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin Territory in 1836.
+    </ion-card-content>
+  </ion-card>
+  
+</ion-content>
